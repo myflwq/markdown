@@ -3,7 +3,7 @@
  npm install --save marked
  ```
 
-### 加高亮，安装highlight.js,只会对代码块产生作用，
+### 加高亮，安装highlight.js,只会对代码块产生作用，通过class名写css样式来控制显示样式
 ```
 npm install --save highlight.js
 ```

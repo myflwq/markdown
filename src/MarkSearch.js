@@ -11,7 +11,7 @@ class MarkSearch extends React.Component {
     }
   }
   componentDidMount(){
-    let address = 'https://raw.githubusercontent.com/myflwq/react/master/030-react-auto-ajax/README.md';
+    let address = 'https://raw.githubusercontent.com/myflwq/markdown/master/README.md';
     axios.get(address).then((res) => {
       this.setState({
         rawContent:res.data
